@@ -75,4 +75,4 @@ You can run the following commands to utilise the asset pipeline.
 `npm run production` will build the assets for the production environment. This will minify all assets and utilise filenames that facilitate cache-busting, ideal for a production environment.
 Unfortunately, PurgeCSS doesn't yet support Pug. See https://github.com/FullHuman/purgecss/issues/6
 
-*Note:* When adding to an existing project, make sure to copy the `scripts` and `devDependencies` from `package.json` to your exisiting `package.json` file.
+*Note:* When adding to an existing project, make sure to copy the `scripts`, `dependencies` and `devDependencies` from `package.json` to your exisiting `package.json` file.
