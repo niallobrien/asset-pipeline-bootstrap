@@ -1,4 +1,6 @@
 # Asset Pipeline: Bootstrap 4
+Asset Pipeline: Bootstrap 4 is intended to be a drop-in asset pipeline for traditional web apps (which uses serverside templates/views). It can be used with most fullstack web frameworks.
+This projects utilises ES2015, jQuery and Bootstrap 4 plugins for clientside JavaScript and Bootstrap 4 (SCSS) for styles.
 
 ## Installation
 If starting a new project,
@@ -60,6 +62,8 @@ Then add `<link rel="stylesheet" href="{{ mix('/assets/styles/app.css') }}">` wi
 <script src="{{ mix('/assets/scripts/vendor.js') }}"></script>
 <script src="{{ mix('/assets/scripts/app.js') }}"></script>
 ```
+
+Please feel free to contribute examples for use with other web frameworks.
 
 ### Usage
 You can run the following commands to utilise the asset pipeline.
